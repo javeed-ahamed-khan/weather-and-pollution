@@ -35,8 +35,8 @@ function WeatherPage() {
           onChange={(e) => setCity(e.target.value)}
         />
       </div>
-      <div className="mt-3 col-md-2 offset-5 col-12">
-        <button className="btn btn-danger" onClick={handleClick}>
+      <div className="mt-3 col-md-2 col-sm-12 offset-sm-0 offset-md-5 col-12">
+        <button className="btn btn-danger col-sm-12" onClick={handleClick}>
           Get Weather
         </button>
       </div>

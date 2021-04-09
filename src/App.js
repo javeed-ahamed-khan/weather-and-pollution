@@ -17,12 +17,14 @@ function App() {
             <div className="row my-5">
               <div className="col-md-2 offset-md-4 col-sm-12">
                 <Link to="/weather">
-                  <button className="col-md-12 btn btn-primary">Weather</button>
+                  <button className="col-md-12 btn btn-primary m-2">
+                    Weather
+                  </button>
                 </Link>
               </div>
               <div className="col-md-2 col-sm-12">
                 <Link to="/pollution">
-                  <button className="col-md-12  btn btn-primary">
+                  <button className="col-md-12  btn btn-primary m-2">
                     Pollution
                   </button>
                 </Link>
