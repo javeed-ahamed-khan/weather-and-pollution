@@ -61,37 +61,37 @@ function AirPollution() {
       {!Object.keys(res).length ? null : (
         <>
           <div className="data">
-            <div className="sample shadow tumbnail ">
+            <div className="sample shadow m-2 ">
               <img src={SO2} alt="so2" />
               <h6>{res.list[0].components.so2} μg/m3</h6>
             </div>
-            <div className="sample shadow">
+            <div className="sample shadow m-2">
               <img src={CO} alt="co" />
               <h6>{res.list[0].components.co} μg/m3</h6>
             </div>
-            <div className="sample shadow">
+            <div className="sample shadow m-2">
               <img src={NO} alt="NO" />
               <h6>{res.list[0].components.no} μg/m3</h6>
             </div>
-            <div className="sample shadow">
+            <div className="sample shadow m-2">
               <img src={NO2} alt="NO2" />
               <h6>{res.list[0].components.no2} μg/m3</h6>
             </div>
           </div>
           <div className="data">
-            <div className="sample shadow">
+            <div className="sample shadow m-2">
               <img src={O3} alt="O3" />
               <h6>{res.list[0].components.o3} μg/m3</h6>
             </div>
-            <div className="sample shadow">
+            <div className="sample shadow m-2">
               <img src={NH3} alt="NH3" />
               <h6>{res.list[0].components.nh3} μg/m3</h6>
             </div>
-            <div className="sample shadow">
+            <div className="sample shadow m-2">
               <img src={PM25} alt="PM2.5" />
               <h6>{res.list[0].components.pm2_5} μg/m3</h6>
             </div>
-            <div className="sample shadow">
+            <div className="sample shadow m-2">
               <img src={PM10} alt="PM10" />
               <h6>{res.list[0].components.pm10} μg/m3</h6>
             </div>
